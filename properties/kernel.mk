@@ -2,8 +2,6 @@
 # local path
 LOCAL_PATH := device/tecno/Camon_C7
 
- /board/*.mk
-
 # Prebuilt Kernel
 TARGET_PREBUILT_KERNEL= $(LOCAL_PATH)/prebuilt/binary/kernel
 
