@@ -1,5 +1,0 @@
-This is patch directory
-
-cd working_directory
-sh device/tecno/Camon/patches/install.sh
-sh device/tecno/Camon/patches/uninstall.sh
