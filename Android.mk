@@ -15,7 +15,6 @@
 #
 
 LOCAL_PATH := $(call my-dir)
-PRE_PATH := device/tecno/Camon_C7/prebuilt
 
 ifeq ($(TARGET_DEVICE),Camon_C7)
 
