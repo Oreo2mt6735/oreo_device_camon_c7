@@ -18,7 +18,7 @@
 LOCAL_PATH := device/tecno/Camon_C7
 
 # Device board elements
-include $(LOCAL_PATH)/board/*.mk
+include $(LOCAL_PATH)/properties/*.mk
 
 # Device vendor board
 -include vendor/tecno/Camon_C7/BoardConfigVendor.mk
