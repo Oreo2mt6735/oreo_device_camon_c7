@@ -25,7 +25,7 @@ PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi 320dpi hdpi tvdpi mdpi ldpi
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Device product elements
-include $(LOCAL_PATH)/product/*.mk
+include $(LOCAL_PATH)/properties/*.mk
 
 # Dalvik heap configurations
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
