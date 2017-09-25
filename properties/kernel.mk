@@ -3,7 +3,7 @@
 LOCAL_PATH := device/tecno/Camon_C7
 
 # Prebuilt Kernel
-TARGET_PREBUILT_KERNEL= $(LOCAL_PATH)/prebuilt/binary/kernel
+TARGET_PREBUILT_KERNEL= $(LOCAL_PATH)/kernel
 
 # Kernel information
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
