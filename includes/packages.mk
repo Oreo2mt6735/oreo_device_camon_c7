@@ -148,7 +148,7 @@ PRODUCT_PACKAGES += \
 
 # HIDL
 PRODUCT_COPY_FILES += \
-    device/doogee/x5pro/manifest.xml:system/vendor/manifest.xml
+    device/tecno/Camon_C7/manifest.xml:system/vendor/manifest.xml
 
 
 

@@ -1,6 +1,6 @@
--include vendor/doogee/x5pro/BoardConfigVendor.mk
+-include vendor/tecno/Camon_C7/BoardConfigVendor.mk
 #Assert
-#TARGET_OTA_ASSERT_DEVICE := hct6735m_35gu_m0,hct6735m_35gu_n1,x5pro
+#TARGET_OTA_ASSERT_DEVICE := TECNO-C7,C7,Camon_C7
 
 COMMON_GLOBAL_CFLAGS += -DDISABLE_HW_ID_MATCH_CHECK
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
@@ -31,21 +31,21 @@ TARGET_INCLUDE_UI_SYMBOLS := true
 TARGET_INCLUDE_OMX_SYMBOLS := true
 
 # HIDL Manifest
-DEVICE_MANIFEST_FILE := device/doogee/x5pro/manifest.xml
+DEVICE_MANIFEST_FILE := device/tecno/Camon_C7/manifest.xml
 
 # system.prop
-TARGET_SYSTEM_PROP := device/doogee/x5pro/system.prop
+TARGET_SYSTEM_PROP := device/tecno/Camon_C7/system.prop
 
 # faster Bootanimation
 TARGET_BOOTANIMATION_HALF_RES := true
 
 #Sepolicy
 #BOARD_SEPOLICY_DIRS := \
-#       device/doogee/x5pro/sepolicy
+#       device/tecno/Camon_C7/sepolicy
 
 # Seccomp Filter
 #BOARD_SECCOMP_POLICY := \
-#       device/doogee/x5pro/seccomp
+#       device/tecno/Camon_C7/seccomp
 
 #BOARD_SEPOLICY_VERS := 30
 

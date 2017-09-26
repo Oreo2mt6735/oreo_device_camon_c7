@@ -1,5 +1,5 @@
-TARGET_RECOVERY_FSTAB := device/doogee/x5pro/rootdir/root/recovery.fstab
-TARGET_PREBUILT_RECOVERY_KERNEL := device/doogee/x5pro/kernel
+TARGET_RECOVERY_FSTAB := device/tecno/Camon_C7/rootdir/root/recovery.fstab
+TARGET_PREBUILT_RECOVERY_KERNEL := device/tecno/Camon_C7/kernel
 BOARD_HAS_NO_SELECT_BUTTON := true
 TW_THEME := portrait_hdpi
 RECOVERY_GRAPHICS_USE_LINELENGTH := true

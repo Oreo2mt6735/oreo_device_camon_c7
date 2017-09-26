@@ -13,7 +13,7 @@ WIFI_DRIVER_FW_PATH_P2P:=P2P
 MTK_BT_SUPPORT := yes
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_MTK := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/doogee/x5pro/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/tecno/Camon_C7/bluetooth
 
 # Audio
 BOARD_USES_MTK_AUDIO := true
@@ -21,7 +21,7 @@ BOARD_CONNECTIVITY_VENDOR := MediaTek
 USE_XML_AUDIO_POLICY_CONF := 1
 
 #RIL 
-BOARD_RIL_CLASS := ../../../device/doogee/x5pro/ril/
+BOARD_RIL_CLASS := ../../../device/tecno/Camon_C7/ril/
 BOARD_CONNECTIVITY_VENDOR := MediaTek
 BOARD_CONNECTIVITY_MODULE := conn_soc
 
@@ -35,4 +35,4 @@ BOARD_CHARGER_SHOW_PERCENTAGE := true
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/BOOT/BOOT/boot/boot_mode
 
 #GPS
-#TARGET_SPECIFIC_HEADER_PATH := device/doogee/x5pro/include
+#TARGET_SPECIFIC_HEADER_PATH := device/tecno/Camon_C7/include
