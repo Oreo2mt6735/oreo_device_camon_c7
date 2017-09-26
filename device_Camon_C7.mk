@@ -59,12 +59,12 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/rootdir/root/init.mt6735.rc:root/init.mt6735.rc \
 	$(LOCAL_PATH)/rootdir/root/init.mt6735.usb.rc:init.mt6735.usb.rc \
 	$(LOCAL_PATH)/rootdir/root/init.project.rc:root/init.project.rc \
+	$(LOCAL_PATH)/rootdir/root/init.rc:root/init.rc \ 
+	$(LOCAL_PATH)/rootdir/root/init.recovery.mt6735.rc:root/init.recovery.mt6735.rc \
 	$(LOCAL_PATH)/rootdir/root/enableswap.sh:root/enableswap.sh \
 	$(LOCAL_PATH)/rootdir/root/factory_init.project.rc:root/factory_init.project.rc \
 	$(LOCAL_PATH)/rootdir/root/factory_init.rc:root/factory_init.rc \
 	$(LOCAL_PATH)/rootdir/root/fstab.charger:root/fstab.charger \ 
-	$(LOCAL_PATH)/rootdir/root/init.rc:root/init.rc \ 
-	$(LOCAL_PATH)/rootdir/root/init.recovery.mt6735.rc:root/init.recovery.mt6735.rc \
 	$(LOCAL_PATH)/rootdir/root/meta_init.modem.rc:root/meta_init.modem.rc \
 	$(LOCAL_PATH)/rootdir/root/meta_init.project.rc:root/meta_init.project.rc \
 	$(LOCAL_PATH)/rootdir/root/meta_init.rc:root/meta_init.rc \
