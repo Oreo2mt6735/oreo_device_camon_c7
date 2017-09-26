@@ -64,13 +64,9 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/rootdir/root/factory_init.project.rc:root/factory_init.project.rc \
 	$(LOCAL_PATH)/rootdir/root/factory_init.rc:root/factory_init.rc \
 	$(LOCAL_PATH)/rootdir/root/fstab.charger:root/fstab.charger \ 
-	$(LOCAL_PATH)/rootdir/root/meta_init.modem.rc:root/meta_init.modem.rc \
-	$(LOCAL_PATH)/rootdir/root/meta_init.project.rc:root/meta_init.project.rc \
-	$(LOCAL_PATH)/rootdir/root/meta_init.rc:root/meta_init.rc \
 	$(LOCAL_PATH)/rootdir/root/recovery.fstab:root/recovery.fstab \
 	$(LOCAL_PATH)/rootdir/root/ueventd.mt6735.rc:root/ueventd.mt6735.rc \
     $(LOCAL_KERNEL):kernel
-    	#$(LOCAL_PATH)/rootdir/root/init.rc:root/init.rc \ 
 
 # Permissions
 PRODUCT_COPY_FILES += \
