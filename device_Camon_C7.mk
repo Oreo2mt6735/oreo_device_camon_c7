@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/rootdir/root/init.mt6735.rc:root/init.mt6735.rc \
 	$(LOCAL_PATH)/rootdir/root/init.mt6735.usb.rc:init.mt6735.usb.rc \
 	$(LOCAL_PATH)/rootdir/root/init.project.rc:root/init.project.rc \
-	$(LOCAL_PATH)/rootdir/root/init.rc:root/init.rc \ 
 	$(LOCAL_PATH)/rootdir/root/init.recovery.mt6735.rc:root/init.recovery.mt6735.rc \
 	$(LOCAL_PATH)/rootdir/root/enableswap.sh:root/enableswap.sh \
 	$(LOCAL_PATH)/rootdir/root/factory_init.project.rc:root/factory_init.project.rc \
@@ -71,6 +70,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/rootdir/root/recovery.fstab:root/recovery.fstab \
 	$(LOCAL_PATH)/rootdir/root/ueventd.mt6735.rc:root/ueventd.mt6735.rc \
     $(LOCAL_KERNEL):kernel
+    	#$(LOCAL_PATH)/rootdir/root/init.rc:root/init.rc \ 
 
 # Permissions
 PRODUCT_COPY_FILES += \
