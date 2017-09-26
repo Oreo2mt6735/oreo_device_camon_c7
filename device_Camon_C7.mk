@@ -54,11 +54,11 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/rootdir/root/fstab.mt6735:root/fstab.mt6735 \
 	$(LOCAL_PATH)/rootdir/root/enableswap.sh:root/enableswap.sh \
 	$(LOCAL_PATH)/rootdir/root/factory_init.project.rc:root/factory_init.project.rc \
 	$(LOCAL_PATH)/rootdir/root/factory_init.rc:root/factory_init.rc \
 	$(LOCAL_PATH)/rootdir/root/fstab.charger:root/fstab.charger \ 
-	$(LOCAL_PATH)/rootdir/root/fstab.mt6735:root/fstab.mt6735 \
 	$(LOCAL_PATH)/rootdir/root/init.modem.rc:root/init.modem.rc \
 	$(LOCAL_PATH)/rootdir/root/init.mt6735.rc:root/init.mt6735.rc \
 	$(LOCAL_PATH)/rootdir/root/init.mt6735.usb.rc:init.mt6735.usb.rc \
