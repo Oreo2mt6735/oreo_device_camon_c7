@@ -77,5 +77,5 @@ git clone https://github.com/Oreo2mt6735/oreo_vendor_mt67xx.git -b n-7.1.2 vendo
 ```
 APPLY IF YOU HAVE YOUR PATCHES AVAILABLE
 
-cd device/tecno/Camon_C7/patches && sh ./check-patches.sh && sh ./apply-patches.sh
+cd device/tecno/Camon_C7/patches && sh ./install.sh && sh ./uninstall.sh
 ```
